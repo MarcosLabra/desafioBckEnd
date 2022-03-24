@@ -1,8 +1,8 @@
 const express = require ('express');
-const container = require ('./manejadorArchivos')
+const container = require ('./controllers/manejadorArchivos');
 
 
-const prods = new container ('./productos.json')
+const prods = new container ('./controllers/productos.json')
 
 
 app = express(); 
